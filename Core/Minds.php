@@ -70,6 +70,7 @@ class Minds extends base
         (new Plus\PlusProvider())->register();
         (new Hashtags\HashtagsProvider())->register();
         (new Feeds\FeedsProvider())->register();
+        (new UserStats\UserStatsProvider())->register();
     }
 
     /**
